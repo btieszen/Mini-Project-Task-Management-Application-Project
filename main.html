@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Management</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"></link>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="bg-info style=--bs-bg-opacity-10"</div>
+<!--Navigation Bar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+          <a class="navbar-brand" href="#">Home</a>
+          <button class="navbar-toggler" type="button" data-bs-toggler="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">***</button>
+          <div class="collapse navbar-collapse id=navbarNav">
+              <ul class="navbar-nav">
+                  <li class="nav-item">
+                      <a class="nav-link" href="validate.html">Task</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link"  href="addtask.html">Add New Task</a>
+           
+                  <li class="nav-item">
+                    <a class="nav-link"  href="register.html">Register Now</a>
+           
+                  </li>
+              </ul>
+              </div>
+              </div>
+              </nav>
+<!--header-->
+              <div class="container mt-1 pt-5">
+            <h1 class="display-1 
+              fst-italic
+              text-center 
+              fw-bold
+              color:cyan-400">
+              Task Management Application
+          </h1>
+          </div>
+
+<!--Task-->
+       <section id="task" class="my-5">
+        <div class="container mt-5 pt-5 bg-light">
+        
+        <h2 class="mb-4 custom-heading text-center">Your Task</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+    
+     
+              
+       <div class="card">
+        <img src="pictures/calender.webp" class="card-img-top" alt="Prod">
+    <div>
+        <div class="card-body">
+        <h5 class="card-title text-center">View Task</h5>
+        <p class="card-text text-center">View All Upcoming Task</p>
+        </div>
+        <div class="col text-center">
+       
+    </div>
+    </div>
+    </div>
+    
+    <div class="card">
+    <img src="pictures/newtask.webp" class="card-img-top" alt="addTask">
+    <div>
+    <div class="card-body">
+        <h5 class="card title text-center">Add Task</h5>
+        <p class="card-text text-center">Add a new Task</p>
+        </div>
+        <div class="col text-center">
+      
+    </div>
+    </div>
+    </div>
+
+   
+    <div class="card">
+   
+       <img src="pictures/register.webp" class="card-img-top" alt="register">
+       <div>
+        <div class="card-body">
+           <h5 class="card-title text-center">Register</h5>
+           <p class="card-text text-center">Register to get new updates and free upgrades </p>
+           </div>
+           <div class="col text-center">
+          </div>
+           </div>
+           </div>
+
+ <!--carousal-->
+
+  
+  
+  
+  <h2 class="mb-4 custom-heading text-center"></h2>
+  
+ <div id="carouselExampleIndicators" class="carousel slide">
+ 
+   <div class="carousel-indicators bg-dark">
+     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+  
+   
+    </div>
+   <div class="carousel-inner">
+     <div class="carousel-item active">
+       <img src="pictures/birthday.jpg" class="d-block w-100 image-fluid" alt="product 1">
+     </div>
+     <div class="carousel-item">
+       <img src="pictures/calender.webp" class="d-block w-100 image-fluid" alt="product2">
+     </div>
+     <div class="carousel-item">
+       <img src="pictures/date.avif" class="d-block w-100 image-fluid" alt="team1">
+     </div>
+     <div class="carousel-item">
+      <img src="pictures/drapp.webp" class="d-block w-100 image-fluid" alt="team2">
+    </div>
+    <div class="carousel-item">
+      <img src="pictures/newtask.webp" class="d-block w-100 image-fluid" alt="team3">
+    </div>
+    <div class="carousel-item">
+      <img src="pictures/register.webp" class="d-block w-100 image-fluid" alt="team4">
+    </div>
+   </div>
+  
+   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+     <span class="visually-hidden">Previous</span>
+   </button>
+   <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+     <span class="carousel-control-next-icon" aria-hidden="true"></span>
+     <span class="visually-hidden">Next</span>
+   </button>
+ </div>
+</div>
+    <!--footer-->
+    <footer class="py-3 mt-4 text-center bg-dark text-light">
+      <div class="container text">
+         
+          <p>&copy;2024 Task Management. All Rights reserved</p>
+      </div>
+      </footer>
+</body>
+</html>
